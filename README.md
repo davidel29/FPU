@@ -30,7 +30,7 @@ make
 ```
 Exécuter le fichier FPU ;
 ```shel
-./FPU
+./FPU_cpp
 ```
 ## Implémentation hardware en VHDL
 Aller dans le répertoire FPU_VHDL :
