@@ -29,5 +29,17 @@ Exécuter le fichier FPU ;
 ./FPU
 ```
 ## Implémentation hardware en VHDL
+Aller dans le répertoire FPU_VHDL :
+```shel
+cd FPU_VHDL
+```
 ### Simulation avec GHDL
+Aller dans le répertoire sim :
+```shel
+cd sim
+```
+Exécuter le fichier compile.x :
+```shel
+./compile.x
+```
 ### Test sur FPGA
