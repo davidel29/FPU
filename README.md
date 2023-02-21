@@ -1,1 +1,4 @@
 # FPU
+```shel
+mkdir build
+```
