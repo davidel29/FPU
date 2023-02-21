@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.61 (w)1999-2014 BSI
+[*] Tue Feb 21 17:08:07 2023
+[*]
+[dumpfile] "/home7/eleyeada/FPU/FPU_VHDL/sim/fpu_tb.ghw"
+[dumpfile_mtime] "Tue Feb 21 17:07:07 2023"
+[dumpfile_size] 188189
+[savefile] "/home7/eleyeada/FPU/FPU_VHDL/sim/fpu_tb.sav"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-33.090553 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.fpu_tb.
+[sst_width] 229
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 139
+@28
+top.fpu_tb.real_number_1
+top.fpu_tb.real_number_2
+top.fpu_tb.real_result_practice
+top.fpu_tb.real_result_theory
+top.fpu_tb.op_valid
+#{top.fpu_tb.op_code[1:0]} top.fpu_tb.op_code[1] top.fpu_tb.op_code[0]
+[pattern_trace] 1
+[pattern_trace] 0
