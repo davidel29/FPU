@@ -1,0 +1,6 @@
+v 4
+file . "soc.vhd" "b143926c15e189ead900516849709145c968233a" "20230220142001.687":
+  entity soc at 1( 0) + 0 on 12;
+  architecture rtl of soc at 22( 416) + 0 on 13;
+file . "soc_pkg.vhd" "0f119df9f7aac99ec839934a459b27a59281a8c5" "20230220142001.640":
+  package soc_pkg at 1( 0) + 0 on 11;

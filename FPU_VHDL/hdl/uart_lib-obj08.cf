@@ -1,0 +1,18 @@
+v 4
+file . "uart_api.vhd" "8f5d427ab0d980ac0626e502f031d139d1cd8760" "20230220142001.534":
+  package uart_api at 7( 310) + 0 on 20 body;
+  package body uart_api at 56( 1745) + 0 on 21;
+file . "tick_gen.vhd" "5acde31dfbc08fcb4b512648c82c32f3c3e987ec" "20230220142001.444":
+  entity tick_gen at 1( 0) + 0 on 16;
+  architecture arch of tick_gen at 16( 282) + 0 on 17;
+file . "receiver.vhd" "96cc75b04b603801f4a1cb8f5f008d384d08c8bb" "20230220142001.372":
+  entity receiver at 1( 0) + 0 on 12;
+  architecture rtl of receiver at 16( 328) + 0 on 13;
+file . "uart_cst_SIM.vhd" "9617898d3f908d81ac2e2b33baaabb35d42e150d" "20230220142001.336":
+  package uart_cst at 1( 0) + 0 on 11;
+file . "sender.vhd" "863c75e8de8a2c8f647e4032dd26efa6d0a0b9d9" "20230220142001.407":
+  entity sender at 1( 0) + 0 on 14;
+  architecture rtl of sender at 17( 358) + 0 on 15;
+file . "uart.vhd" "3cd91d9f7aeb4557e265b7a638013a0c4d3f90c4" "20230220142001.487":
+  entity uart at 1( 0) + 0 on 18;
+  architecture structural of uart at 25( 650) + 0 on 19;

@@ -1,0 +1,4 @@
+v 4
+file . "../sim/soc_tb.vhd" "f4bb0487a7a07793f48bbd265b45c761c8097115" "20230217145442.710":
+  entity soc_tb at 4( 129) + 0 on 11;
+  architecture bhv of soc_tb at 18( 345) + 0 on 12;
