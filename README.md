@@ -72,7 +72,7 @@ GEM_HOME=~/gem
 gem install uart
 cd ..
 ```
-Lancer le script ruby :
+Lancer le script Ruby :
 ```shell
 ruby uart_send_test.rb 
 ```
