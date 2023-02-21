@@ -1,5 +1,5 @@
 # FPU
-Cloner le repositorie Github :
+Cloner le repository Github :
 ```shel
 git clone https://github.com/davidel29/FPU.git
 ```
