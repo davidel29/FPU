@@ -1,7 +1,0 @@
-v 4
-file . "../hdl/ip_fpu.vhd" "8e4361148df263814a8edb30bff8422fb64cfe1f" "20230217145442.599":
-  entity ip_fpu at 1( 0) + 0 on 13;
-  architecture rtl of ip_fpu at 24( 584) + 0 on 14;
-file . "../hdl/fifo.vhd" "d5eb4047cf9f7542218833681752ffbe6ba57835" "20230217145442.588":
-  entity fifo at 1( 0) + 0 on 11;
-  architecture rtl of fifo at 27( 642) + 0 on 12;

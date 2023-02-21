@@ -1,7 +1,0 @@
-v 4
-file . "../hdl/uart_bus_master.vhd" "5a0682df453af0842d7c259ba61d02c38a889ef1" "20230217145442.680":
-  entity uart_bus_master at 1( 0) + 0 on 13;
-  architecture rtl of uart_bus_master at 25( 682) + 0 on 14;
-file . "../hdl/uart_bus_master_fsm.vhd" "5bc559ce6eaccd02311fed7c9fe4df57db1a0a20" "20230217145442.670":
-  entity uart_bus_master_fsm at 1( 0) + 0 on 11;
-  architecture rtl of uart_bus_master_fsm at 27( 818) + 0 on 12;
