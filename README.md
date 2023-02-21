@@ -20,7 +20,7 @@ Configurer le projet avec CMake :
 ```shel
 cmake ..
 ```
-Construire le projet avec le makefile :
+Construire le projet avec le Makefile :
 ```shel
 make
 ```
