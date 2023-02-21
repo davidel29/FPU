@@ -47,3 +47,15 @@ Exécuter le fichier compile.x :
 ./compile.x
 ```
 ### Test sur FPGA
+Aller dans le répertoire syn :
+```shel
+cd syn
+```
+Synthétiser le code avec Vivado :
+```shel
+vivado -mode tcl -source script.tcl
+```
+Charger le bitstream avec l'outil de Digilent :
+```shel
+djtgcfg prog -d Nexys4DDR -i 0 -f SYNTH_OUTPUTS/top.bit
+```
