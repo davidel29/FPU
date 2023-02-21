@@ -1,6 +1,7 @@
 # FPU
+Cloner le repositorie Github :
 ```shel
-mkdir build
+git clone https://github.com/mineosx29/wasm-as-ensta.git
 ```
 ## Modèle en C++
 ## Implémentation hardware en VHDL
