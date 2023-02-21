@@ -24,7 +24,7 @@ Effectuer un make :
 ```shel
 make
 ```
-Exécuter le fichier FPU
+Exécuter le fichier FPU ;
 ```shel
 ./FPU
 ```
