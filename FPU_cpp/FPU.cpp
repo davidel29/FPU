@@ -38,8 +38,6 @@ float_ieee_754 FPU::multiplication(float_ieee_754 f1, float_ieee_754 f2) {
 }
 
 float_ieee_754 FPU::division(float_ieee_754 f1, float_ieee_754 f2) {
-    float_ieee_754 theory;
-    theory.value = f1.value/f2.value;
     //exponent
     f_out.exponent = f1.exponent - f2.exponent + 127;
     //vectorisation of mantissas
