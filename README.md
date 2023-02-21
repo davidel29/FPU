@@ -64,7 +64,7 @@ Aller dans le répertoire sw :
 ```shell
 cd sw
 ```
-Créer un environnement local ruby :
+Créer un environnement local Ruby :
 ```shell
 mkdir gem
 cd gem
