@@ -3,6 +3,10 @@ Cloner le repository Github :
 ```shel
 git clone https://github.com/davidel29/FPU.git
 ```
+Aller dans le répertoire FPU :
+```shel
+cd FPU
+```
 ## Modèle en C++
 Aller dans le répertoire FPU_cpp :
 ```shel
