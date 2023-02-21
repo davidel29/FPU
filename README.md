@@ -16,11 +16,11 @@ Aller dans le répertoire build :
 ```shel
 cd build
 ```
-Lancer cmake :
+Configurer le projet avec CMake :
 ```shel
 cmake ..
 ```
-Effectuer un make :
+Construire le projet avec le makefile :
 ```shel
 make
 ```
