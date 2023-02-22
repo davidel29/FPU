@@ -31,7 +31,7 @@ La classe C++ **FPU** représente une unité de calcul en virgule flottante.
 Les membres privées de la classe **FPU** sont :
 - **Binary_operations** : une classe qui effectue des opérations binaires.
 - **size_intermediate_mantissa** : une constante qui détermine la taille de la mantisse intermédiaire.
-- **f_out** : un objet de la classe **float_ieee_754** qui stocke le résultat de l'opération.
+- **f_out** : un type **float_ieee_754** qui stocke le résultat de l'opération.
 - **intermediate_mantissa_1**, **intermediate_mantissa_2**, **intermediate_mantissa_out** : des variables entières qui stockent les mantisses intermédiaires des nombres d'entrée et du résultat.
 - **v_intermediate_mantissa_1**, **v_intermediate_mantissa_2**, **v_intermediate_mantissa_out** : des vecteurs de booléens qui stockent les mantisses intermédiaires des nombres d'entrée et du résultat.
 - **align_mantissas()** et **normalize()** : des fonctions membres privées qui sont utilisées pour aligner les mantisses des nombres d'entrée et normaliser le résultat.   
