@@ -59,7 +59,7 @@ Charger le bitstream avec l'outil de Digilent :
 ```shell
 djtgcfg prog -d Nexys4DDR -i 0 -f SYNTH_OUTPUTS/top.bit
 ```
-### Test IP FPU
+### Test de l'IP FPU
 Aller dans le répertoire sw :
 ```shell
 cd sw
