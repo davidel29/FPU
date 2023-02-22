@@ -70,7 +70,6 @@ mkdir gem
 cd gem
 GEM_HOME=~/gem
 gem install uart
-cd ..
 ```
 Lancer le script Ruby :
 ```shell
