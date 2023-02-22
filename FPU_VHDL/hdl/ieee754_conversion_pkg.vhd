@@ -16,15 +16,15 @@ package ieee754_conversion_pkg is
     return std_logic;
 
   function real_to_float ( real_number : real)
-    return float_record;
+    return float_ieee_754;
 
-  function float_to_vector( float_number : float_record)
+  function float_to_vector( float_number : float_ieee_754)
     return std_logic_vector;
   
   function vector_to_float( vector : std_logic_vector)
-    return float_record;
+    return float_ieee_754;
   
-  function float_to_real( float_number : float_record)
+  function float_to_real( float_number : float_ieee_754)
     return real;
     
 end package ieee754_conversion_pkg;
@@ -36,9 +36,9 @@ package body ieee754_conversion_pkg is
   (
     real_number : real
   )
-  return float_record
+  return float_ieee_754
   is
-    variable float_number : float_record;
+    variable float_number : float_ieee_754;
   begin
     float_number.sign := get_sign(real_number);
     float_number.exponent := get_exponent(real_number);
@@ -48,7 +48,7 @@ package body ieee754_conversion_pkg is
 
   function float_to_real
   (
-    float_number : float_record
+    float_number : float_ieee_754
   )
   return real
   is
