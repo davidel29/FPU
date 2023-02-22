@@ -1,4 +1,4 @@
-# Opérations flotantes en C++
+# Opérations flottantes en C++
 Cette partie présente les méthodes **addition**, **soustraction**, **multiplication** et **division** appartenant à la classe **FPU**. Le but de ces méthodes est d'effectuer des opérations à virgule flottante sur des nombres représentés au format IEEE 754 à l'aide du type **float_ieee_754**. Les méthodes renvoient ensuite le résultat sous la forme d'un **float_ieee_754** après des opérations sur les exposants, les signes et les mantisses.
 ## Addition
 ```C++
