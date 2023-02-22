@@ -1,0 +1,2 @@
+# FPU
+Une unité de calcul en virgule flottante (en anglais Floating Point Unit, soit **FPU**) est un composant matériel d'un processeur qui permet d'effectuer des opérations arithmétiques sur des nombres à virgule flottante en respectant la norme IEEE 754. Dans ce projet, l'addition, la soustraction, la multiplication et la division sont implémentées en C++ et en VHDL afin de simuler le fonctionnement d'une FPU.
