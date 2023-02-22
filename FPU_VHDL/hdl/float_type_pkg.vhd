@@ -11,7 +11,7 @@ package float_type_pkg is
   subtype t_mantissa is unsigned(mantissa_high downto 0);
   subtype t_exponent is unsigned(exponent_high downto 0);
 
-  type float_record is record
+  type float_ieee_754 is record
     sign     : std_logic;
     exponent : t_exponent;
     mantissa : t_mantissa;
