@@ -64,7 +64,7 @@ Aller dans le répertoire sw :
 ```shell
 cd sw
 ```
-Créer un environnement local Ruby :
+Créer un environnement local Ruby et installer le gem uart :
 ```shell
 mkdir gem
 cd gem
@@ -73,5 +73,5 @@ gem install uart
 ```
 Lancer le script Ruby :
 ```shell
-ruby uart_send_test.rb 
+ruby uart_fpu.rb 
 ```
