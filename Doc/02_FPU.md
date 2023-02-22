@@ -72,4 +72,6 @@ Les entrées sont les suivantes :
 
 Les sorties sont les suivantes :
 - **op_valid** : indique si une opération valide a été effectuée.   
-- **result** : fournit le résultat de l'opération flotante sur 32 bits.
+- **result** : fournit le résultat de l'opération flotante sur 32 bits.  
+
+<img src="Images/fpu.png">
