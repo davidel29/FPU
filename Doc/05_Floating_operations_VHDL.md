@@ -1,4 +1,4 @@
-# Opérations flotantes
+# Opérations flottantes
 ## Addition et Soustraction
 <img src="Images/Float_add_sub.png">
 
