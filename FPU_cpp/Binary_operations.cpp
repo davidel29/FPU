@@ -16,7 +16,6 @@ vector<bool> Binary_operations::addition(vector<bool> v1, vector<bool> v2) {
 vector<bool> Binary_operations::multiplication(vector<bool> v1, vector<bool> v2) {
     vector<bool> sum(v1.size() + v2.size(),false);
     vector<bool> product(v1.size() + v2.size(),false);
-    int cpt =0;
     for(int i = 0; i < v2.size(); i++){
         if (v2[i]){
             for (int j = 0; j < v1.size(); j++) {
