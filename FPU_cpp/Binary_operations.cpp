@@ -4,6 +4,8 @@ Binary_operations::Binary_operations() {}
 
 vector<bool> Binary_operations::addition(vector<bool> v1, vector<bool> v2) {
     vector<bool> sum(max(v1.size(), v2.size()), false);
+    v1.resize(max(v1.size(), v2.size()));
+    v2.resize(max(v1.size(), v2.size()));
     bool carry = false;
     for(int i = 0; i < max(v1.size(), v2.size()); i++){
         sum[i] = (v1[i] ^ v2[i]) ^ carry;
@@ -31,6 +33,8 @@ vector<bool> Binary_operations::multiplication(vector<bool> v1, vector<bool> v2)
 
 vector<bool> Binary_operations::subtraction(vector<bool> v1, vector<bool> v2) {
     vector<bool> different(max(v1.size(), v2.size()), false);
+    v1.resize(max(v1.size(), v2.size()));
+    v2.resize(max(v1.size(), v2.size()));
     bool carry = false;
     for(int i = 0; i < max(v1.size(), v2.size()); i++){
         different[i] = ((v1[i] ^ v2[i]) ^ carry) | v1[i] & v2[i] & carry;
