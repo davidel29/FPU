@@ -12,7 +12,6 @@ read_vhdl -library fpu_lib    ../hdl/float_multiplication.vhd
 read_vhdl -library fpu_lib    ../hdl/float_division.vhd
 read_vhdl -library fpu_lib    ../hdl/fpu.vhd
 
-
 read_vhdl -library ip_lib    ../hdl/fifo.vhd
 read_vhdl -library ip_lib    ../hdl/ip_fpu.vhd
 
