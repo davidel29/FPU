@@ -73,5 +73,7 @@ Les entrées sont les suivantes :
 Les sorties sont les suivantes :
 - **op_valid** : indique si une opération valide a été effectuée.   
 - **result** : fournit le résultat de l'opération flotante sur 32 bits.  
-
+### Machine d'état qui gère le fonctionnement de la FPU
 <img src="Images/fpu.png">
+### Synthèse RTL
+
