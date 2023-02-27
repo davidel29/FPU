@@ -1,4 +1,4 @@
-# Opétations binaires
+# Opérations binaires
 ## Addition
 ```C++
 vector<bool> Binary_operations::addition(vector<bool> v1, vector<bool> v2) {
