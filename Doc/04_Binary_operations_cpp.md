@@ -16,7 +16,7 @@ vector<bool> Binary_operations::addition(vector<bool> v1, vector<bool> v2) {
 ```
 1) La fonction **addition** prend deux vecteurs booléens en entrée et retourne un nouveau vecteur booléen représentant la somme des deux vecteurs d'entrée. Elle commence par créer un vecteur de la taille maximale des deux vecteurs d'entrée. 
 2) Ensuite, elle redimensionne les deux vecteurs d'entrée pour qu'ils aient la même taille que le vecteur de sortie en ajoutant des bits à 0 à la fin. Elle initialise une variable booléenne **carry** à false pour représenter la retenue lors de l'addition. 
-3) Ensuite, elle parcourt les deux vecteurs d'entrée simultanément et calcule la somme bit à bit en prenant en compte la retenue. 
+3) De plus, elle parcourt les deux vecteurs d'entrée simultanément et calcule la somme bit à bit en prenant en compte la retenue. 
 4) Enfin, elle ajoute la retenue finale au vecteur de sortie et le retourne.
 ## Multiplication
 ```C++
@@ -36,7 +36,7 @@ vector<bool> Binary_operations::multiplication(vector<bool> v1, vector<bool> v2)
     return sum;
 }
 ```
-1) La fonction multiplication prend en entrée deux vecteurs de booléens, qui représentent des nombres binaires en tant que tableaux de bits, et retourne le produit de ces deux nombres également représenté sous forme de vecteur de booléens.
+1) La fonction **multiplication** prend en entrée deux vecteurs de booléens, qui représentent des nombres binaires en tant que tableaux de bits, et retourne le produit de ces deux nombres également représenté sous forme de vecteur de booléens.
 2) Le vecteur sum est utilisé pour stocker le résultat de la multiplication, et est initialisé avec une taille égale à la somme des tailles de v1 et v2. Le vecteur product est utilisé pour stocker les produits partiels de v1 en fonction de chaque bit de v2. 
 3) Ensuite, la fonction parcourt les bits de v2 et, pour chaque bit à 1, elle multiplie v1 par ce bit en décalant les bits de v1 de i positions vers la gauche et stocke le résultat dans le vecteur product. 
 4) Elle ajoute ensuite le produit partiel stocké dans product à la somme partielle stockée dans sum en appelant la fonction addition définie précédemment. 
@@ -56,7 +56,7 @@ vector<bool> Binary_operations::subtraction(vector<bool> v1, vector<bool> v2) {
     return different;
 }
 ```
-1) Tout d'abord, la fonction crée un vecteur different de la même taille que le plus grand des deux vecteurs en entrée.
+1) Tout d'abord, la fonction **subtraction** crée un vecteur different de la même taille que le plus grand des deux vecteurs en entrée.
 2) Ensuite, elle redimensionne **v1** et **v2** pour qu'ils aient la même taille que different. Cela permet de s'assurer que les deux vecteurs ont la même taille pour que la soustraction puisse être effectuée bit à bit.
 3) De plus, pour chaque bit des vecteurs v1 et v2, la fonction effectue une soustraction bit à bit.
 4) Enfin, la fonction met à jour carry pour la soustraction suivante.
@@ -87,3 +87,6 @@ vector<bool> Binary_operations::division(vector<bool> v1, vector<bool> v2) {
     return quotient;
 }
 ```
+1) La fonction **division** prend deux vecteurs booléens v1 et v2 en entrée, qui représentent respectivement le dividende et le diviseur sous forme binaire.
+3) Pour chaque itération, elle décale les bits de **dividend** et **quotient** d'une position vers la gauche, en insérant un 0 en position 0 pour le **quotient** et le bit courant de **v1** pour le **dividend**. 
+4) Elle effectue ensuite une soustraction entre dividend et divisor pour obtenir le reste, stocké à nouveau dans dividend. Si le bit le plus significatif de **dividend** est 1, cela signifie que le reste est négatif, et donc la soustraction n'a pas été possible. Dans ce cas, la fonction restaure **dividend** à sa valeur précédente. Sinon, la fonction marque le bit correspondant dans **quotient** à 1.
