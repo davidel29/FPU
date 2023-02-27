@@ -37,11 +37,11 @@ vector<bool> Binary_operations::multiplication(vector<bool> v1, vector<bool> v2)
 }
 ```
 1) La fonction **multiplication** prend en entrée deux vecteurs de booléens, qui représentent des nombres binaires en tant que tableaux de bits, et retourne le produit de ces deux nombres également représenté sous forme de vecteur de booléens.
-2) Le vecteur sum est utilisé pour stocker le résultat de la multiplication, et est initialisé avec une taille égale à la somme des tailles de v1 et v2. Le vecteur product est utilisé pour stocker les produits partiels de v1 en fonction de chaque bit de v2. 
-3) Ensuite, la fonction parcourt les bits de v2 et, pour chaque bit à 1, elle multiplie v1 par ce bit en décalant les bits de v1 de i positions vers la gauche et stocke le résultat dans le vecteur product. 
+2) Le vecteur sum est utilisé pour stocker le résultat de la multiplication, et est initialisé avec une taille égale à la somme des tailles de **v1** et **v2**. Le vecteur product est utilisé pour stocker les produits partiels de **v1** en fonction de chaque bit de **v2**. 
+3) Ensuite, la fonction parcourt les bits de **v2** et, pour chaque bit à 1, elle multiplie **v1** par ce bit en décalant les bits de **v1** de i positions vers la gauche et stocke le résultat dans le vecteur **product**. 
 4) Elle ajoute ensuite le produit partiel stocké dans product à la somme partielle stockée dans sum en appelant la fonction addition définie précédemment. 
-5) De plus, elle réinitialise le vecteur product à des valeurs fausses avant de passer au bit suivant de v2. 
-6) Enfin, la fonction redimensionne le vecteur sum pour avoir une taille égale à la taille de la multiplication de v1 par v2.
+5) De plus, elle réinitialise le vecteur product à des valeurs fausses avant de passer au bit suivant de **v2**. 
+6) Enfin, la fonction redimensionne le vecteur sum pour avoir une taille égale à la taille de la multiplication de **v1** par **v2**.
 ## Soustraction
 ```C++
 vector<bool> Binary_operations::subtraction(vector<bool> v1, vector<bool> v2) {
@@ -58,8 +58,8 @@ vector<bool> Binary_operations::subtraction(vector<bool> v1, vector<bool> v2) {
 ```
 1) Tout d'abord, la fonction **subtraction** crée un vecteur different de la même taille que le plus grand des deux vecteurs en entrée.
 2) Ensuite, elle redimensionne **v1** et **v2** pour qu'ils aient la même taille que different. Cela permet de s'assurer que les deux vecteurs ont la même taille pour que la soustraction puisse être effectuée bit à bit.
-3) De plus, pour chaque bit des vecteurs v1 et v2, la fonction effectue une soustraction bit à bit.
-4) Enfin, la fonction met à jour carry pour la soustraction suivante.
+3) De plus, pour chaque bit des vecteurs **v1** et **v2**, la fonction effectue une soustraction bit à bit.
+4) Enfin, la fonction met à jour **carr**y pour la soustraction suivante.
 ## Division
 ```C++
 vector<bool> Binary_operations::division(vector<bool> v1, vector<bool> v2) {
@@ -87,6 +87,6 @@ vector<bool> Binary_operations::division(vector<bool> v1, vector<bool> v2) {
     return quotient;
 }
 ```
-1) La fonction **division** prend deux vecteurs booléens v1 et v2 en entrée, qui représentent respectivement le dividende et le diviseur sous forme binaire.
+1) La fonction **division** prend deux vecteurs booléens **v1** et **v2** en entrée, qui représentent respectivement le dividende et le diviseur sous forme binaire.
 3) Pour chaque itération, elle décale les bits de **dividend** et **quotient** d'une position vers la gauche, en insérant un 0 en position 0 pour le **quotient** et le bit courant de **v1** pour le **dividend**. 
-4) Elle effectue ensuite une soustraction entre dividend et divisor pour obtenir le reste, stocké à nouveau dans dividend. Si le bit le plus significatif de **dividend** est 1, cela signifie que le reste est négatif, et donc la soustraction n'a pas été possible. Dans ce cas, la fonction restaure **dividend** à sa valeur précédente. Sinon, la fonction marque le bit correspondant dans **quotient** à 1.
+4) Elle effectue ensuite une soustraction entre **dividend** et **divisor** pour obtenir le reste, stocké à nouveau dans **dividend**. Si le bit le plus significatif de **dividend** est 1, cela signifie que le reste est négatif, et donc la soustraction n'a pas été possible. Dans ce cas, la fonction restaure **dividend** à sa valeur précédente. Sinon, la fonction marque le bit correspondant dans **quotient** à 1.
