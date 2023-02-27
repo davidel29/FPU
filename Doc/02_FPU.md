@@ -77,4 +77,4 @@ Les sorties sont les suivantes :
 <img src="Images/fpu.png">
 
 ### Synthèse RTL
-<img src="Images/synthèse_rtl.png">
+<img src="Images/Diagramme sans nom.drawio (1).png">
