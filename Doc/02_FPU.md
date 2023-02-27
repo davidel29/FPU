@@ -76,4 +76,4 @@ Les sorties sont les suivantes :
 ### Machine d'état qui gère le fonctionnement de la FPU
 <img src="Images/fpu.png">
 ### Synthèse RTL
-
+<img src="Images/fsynthèse_rtl.png">
