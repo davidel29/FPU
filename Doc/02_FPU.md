@@ -65,10 +65,10 @@ Les entrées sont les suivantes :
 - **number_1** et **number_2** : deux nombres flotants représentés sur 32 bits.
 - **enable** : utilisé pour activer ou désactiver le fonctionnement de la FPU.  
 - **op_code** : opération spécifique à effectuer :
-  - **0x00** : l'addition
-  - **0x01** : la soustraction
-  - **0x10** : la multiplication
-  - **0x11** : la division  
+  - **0b00** : l'addition
+  - **0b01** : la soustraction
+  - **0b10** : la multiplication
+  - **0b11** : la division  
 
 Les sorties sont les suivantes :
 - **op_valid** : indique si une opération valide a été effectuée.   
